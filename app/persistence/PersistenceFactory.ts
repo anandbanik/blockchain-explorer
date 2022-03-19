@@ -29,6 +29,11 @@ export class PersistenceFactory {
 			await persistence.getPGService().handleDisconnect();
 			return persistence;
 		}
+		if (db === explorerConst.PERSISTENCE_MYSQL) {
+			const persistence = new Persist(dbconfig);
+			await persistence.getPGService().handleDisconnect();
+			return persistence;
+		}
 		throw new ExplorerError(explorerError.ERROR_1003, db);
 	}
 }

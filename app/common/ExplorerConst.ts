@@ -11,6 +11,7 @@ export enum explorerConst {
 	PLATFORMS = 'platforms',
 	PLATFORM_FABRIC = 'fabric',
 	PERSISTENCE_POSTGRESQL = 'postgreSQL',
+	PERSISTENCE_MYSQL = 'mySQL',
 	SYNC_TYPE_LOCAL = 'local',
 	SYNC_TYPE_HOST = 'host',
 	HEALTHZ = 'healthz',

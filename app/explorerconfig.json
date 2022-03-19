@@ -1,9 +1,16 @@
 {
-	"persistence": "postgreSQL",
+	"persistence": "mySQL",
 	"platforms": ["fabric"],
 	"postgreSQL": {
 		"host": "127.0.0.1",
 		"port": "5432",
+		"database": "fabricexplorer",
+		"username": "hppoc",
+		"passwd": "password"
+	},
+	"mySQL": {
+		"host": "127.0.0.1",
+		"port": "3306",
 		"database": "fabricexplorer",
 		"username": "hppoc",
 		"passwd": "password"
