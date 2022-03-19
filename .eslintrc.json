@@ -168,9 +168,10 @@
 		"spellcheck/spell-checker": [
 			2,
 			{
-				"comments": true,
-				"strings": true,
+				"comments": false,
+				"strings": false,
 				"identifiers": false,
+				"templates": false,
 				"lang": "en_US",
 				"skipWords": [
 					"rgba",
